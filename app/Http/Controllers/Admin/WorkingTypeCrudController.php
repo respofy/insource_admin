@@ -25,7 +25,7 @@ class WorkingTypeCrudController extends CrudController
         */
         $this->crud->setModel('App\Models\WorkingType');
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/workingType');
-        $this->crud->setEntityNameStrings('Working Type', 'working_types');
+        $this->crud->setEntityNameStrings('Working Type', 'Working Types');
 
         /*
         |--------------------------------------------------------------------------

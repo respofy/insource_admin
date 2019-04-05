@@ -25,7 +25,7 @@ class LanguageKnowledgeCrudController extends CrudController
         */
         $this->crud->setModel('App\Models\LanguageKnowledge');
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/languageKnowledge');
-        $this->crud->setEntityNameStrings('Language Knowledge', 'language_knowledge');
+        $this->crud->setEntityNameStrings('Language Knowledge', 'Language Knowledge');
 
         /*
         |--------------------------------------------------------------------------
